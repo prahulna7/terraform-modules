@@ -1,0 +1,34 @@
+Create RMIS NonProd Private Storage Account
+details as below
+
+Resource group: cloud-shell-storage-westus2
+Location: West US
+Performance: Standard
+Replication: Locally-redundant-storage (LRS)
+Subscription: ts_nonprod09_ea(npRMISPrivate)
+Account kind: Storage V2 (general purpose v2)
+Hierarchial namespace: Disabled
+Default access tier: Hot
+Blob public access: Disabled
+Blob soft delete: Disabled
+Container soft delete: Disabled
+Versioning: Disabled
+Change feed: Diasbled
+NFS v3: Disabled
+Allow cross-tenant replication: Enabled
+Large file share: Disabled
+Active Directory: Not configured
+Soft delete: Enabled (7 dayd)
+Share capacity: 5 TiB
+Require secure transfer for REST API Operations: Enabled
+Storage account key access: Enabled
+Minimum TLS version: Version 1.2
+Infrastructure Encryption: Disabled
+Allow access from: All networks
+No.of private endpoint connections: 0
+Network routing: Microsoft network routing
+Access for trusted Microsoft services: Yes
+Endpoint type: Standard
+CMK support (Queue service): Disabled
+CMK support (Table service): Disabled
+Tags: Environment: NonProdPrivate, Dept: RMIS
